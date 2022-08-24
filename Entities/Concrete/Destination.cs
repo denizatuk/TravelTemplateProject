@@ -14,9 +14,14 @@ namespace Entities.Concrete
         public string Name { get; set; }
         public string City { get; set; }
         public string Description { get; set; }
+        public string ShortDescription { get; set; }
+        public string LongDescription { get; set; }
+        public string CoverImage { get; set; }
         public string Image { get; set; }
+        public string Image2 { get; set; }
         public string DayOrNight { get; set; }
         public double Price { get; set; }
         public bool Status { get; set; }
+        public List<Comment> Comment { get; set; }
     }
 }

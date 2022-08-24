@@ -21,5 +21,6 @@ namespace DataAccess.Concrete
         public DbSet<Static> Statics { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<Feature> Features { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }
