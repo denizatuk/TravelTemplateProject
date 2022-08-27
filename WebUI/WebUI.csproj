@@ -37,12 +37,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\regform\" />
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\Member\" />
-    <Folder Include="Areas\Member\Controllers\" />
     <Folder Include="Areas\Member\Models\" />
     <Folder Include="Areas\Member\Data\" />
-    <Folder Include="Areas\Member\Views\" />
     <Folder Include="Areas\Member\Views\Comment\" />
     <Folder Include="Views\MemberLayoutPartial\" />
     <Folder Include="Areas\Member\Views\Destination\" />

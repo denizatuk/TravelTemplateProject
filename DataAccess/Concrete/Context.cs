@@ -13,8 +13,8 @@ namespace DataAccess.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(@"server=(localdb)\MSSQLLocalDB;database=TravelDB;integrated security=true");
-            optionsBuilder.UseSqlServer(@"server=localhost;database=TravelDB;User=sa;Password=Docker@123");
+            optionsBuilder.UseSqlServer(@"server=(localdb)\MSSQLLocalDB;database=TravelDB;integrated security=true");
+            //optionsBuilder.UseSqlServer(@"server=localhost;database=TravelDB;User=sa;Password=Docker@123");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Contact> Contacts { get; set; }
@@ -24,5 +24,6 @@ namespace DataAccess.Concrete
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<Feature> Features { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }
