@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\regform\" />
+    <Content Remove="wwwroot\UserImages\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\regform\" />
@@ -46,6 +47,7 @@
     <Folder Include="Views\MemberLayoutPartial\" />
     <Folder Include="Areas\Member\Views\Destination\" />
     <Folder Include="Areas\Member\Views\Profile\" />
+    <Folder Include="wwwroot\UserImages\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Swashbuckle.AspNetCore" />
